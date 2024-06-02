@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // eslint-disable-next-line react/prop-types
-const DepositWithdrawTotal = ({ heading, totalBalance = "00", color }) => {
+const DepositWithdrawTotal = ({ heading, totalBalance = '00', color }) => {
   
   const Card = styled.div`
     background-color: ${color};
